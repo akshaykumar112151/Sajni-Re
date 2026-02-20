@@ -1,5 +1,4 @@
 // src/components/PromoSection.jsx
-import React from "react";
 import { motion } from "framer-motion";
 import diamondRing from "../assets/diamond-ring.png";
 import RingWithBox from "../assets/RingWithBox.png";

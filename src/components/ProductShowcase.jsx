@@ -1,4 +1,3 @@
-import React from "react";
 import GoldPendantImage from "../assets/gold-pendant.png";
 import diamondRing from "../assets/diamond-ring.png";
 import ModelImage from "../assets/model-image.jpg";
