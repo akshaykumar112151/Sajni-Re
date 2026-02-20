@@ -1,7 +1,7 @@
 // src/components/PromoSection.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import diamondring from "../assets/diamondring.png";
+import diamondRing from "../assets/diamond-ring.png";
 import RingWithBox from "../assets/RingWithBox.png";
 import RingsSet1 from "../assets/RingsSet1.png";
 import Chain from "../assets/Chain.png";
@@ -25,7 +25,7 @@ const PromoSection = () => {
   return (
     <section className="bg-amber-50 py-12 px-4 sm:px-8 md:px-16 font-marcellus">
 
-      {/* ---- HEADING ---- */}
+      {/* HEADING */}
       <motion.div
         className="text-center max-w-6xl mx-auto mb-12"
         initial="hidden"
@@ -40,7 +40,7 @@ const PromoSection = () => {
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-800 leading-relaxed mt-4">
           ELEGANCE IS TIMELESS, AND SO IS OUR JEWELRY{" "}
           <img
-            src={diamondring}
+            src={diamondRing}
             alt="Diamond Ring"
             className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1"
           />
@@ -66,7 +66,7 @@ const PromoSection = () => {
         </h2>
       </motion.div>
 
-      {/* ---- FEATURES GRID ---- */}
+      {/* FEATURES */}
       <motion.div
         className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-5xl mx-auto text-center"
         initial="hidden"
@@ -103,7 +103,7 @@ const PromoSection = () => {
         </div>
       </motion.div>
 
-      {/* ---- AUTHOR ---- */}
+      {/* AUTHOR */}
       <motion.div
         className="mt-12 text-center"
         initial="hidden"
