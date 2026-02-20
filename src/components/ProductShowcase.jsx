@@ -1,6 +1,6 @@
 import React from "react";
 import GoldPendantImage from "../assets/gold-pendant.png";
-import diamondring from "../assets/diamondring.png";
+import diamondRing from "../assets/diamond-ring.png";
 import ModelImage from "../assets/model-image.jpg";
 
 const ProductShowcase = () => {
@@ -24,7 +24,7 @@ const ProductShowcase = () => {
         {/* Product 2 */}
         <div className="flex flex-col items-center">
           <img
-            src={diamondring}
+            src={diamondRing}
             alt="Diamond Ring"
             className="w-[280px] sm:w-[400px] md:w-[520px] h-auto object-contain"
           />
@@ -34,7 +34,7 @@ const ProductShowcase = () => {
           <p className="text-gray-600 mt-2">23.00$ – 28.00$</p>
         </div>
 
-        {/* Model with Shop Now */}
+        {/* Model */}
         <div className="relative rounded-tl-[300px] rounded-tr-[300px] overflow-hidden h-[800px]">
           <img
             src={ModelImage}
